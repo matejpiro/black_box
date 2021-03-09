@@ -32,6 +32,7 @@ def main():
             b = guessing_dict.get("pole_4")
             guessing_dict["pole_3"] = b
             guessing_dict["pole_4"] = a
+        # RESET
         elif user_input == 8:                   # reset
             guessing_dict["pole_1"] = "_"
             guessing_dict["pole_2"] = "_"
